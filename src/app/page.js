@@ -1,12 +1,15 @@
-'use client';
-import { useEffect } from 'react';
+'use client'
+import { useEffect } from 'react'
 import Lenis from 'lenis'
-import Intro from '@/components/Intro';
-import Description from '@/components/Description';
-import Section from '@/components/Section';
+import Intro from '@/components/Intro'
+import Description from '@/components/Description'
+import Section from '@/components/Section'
+import Stack from '@/components/Stack'
+import Bio from '@/components/Bio'
+import Project from '@/components/Project'
+import Footer from '@/components/Footer'
 export default function Home() {
-
-  useEffect( () => {
+  useEffect(() => {
     const lenis = new Lenis()
 
     function raf(time) {
@@ -20,9 +23,12 @@ export default function Home() {
   return (
     <main>
       <Intro />
-      <Description />
+      <Bio />
       <Section />
-      <div className='h-screen'></div>
+      <Description />
+      <Stack />
+      <Project />
+      <Footer />
     </main>
-  );
+  )
 }
