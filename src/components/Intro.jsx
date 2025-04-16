@@ -18,7 +18,7 @@ export default function Intro() {
     <div className="h-screen overflow-hidden">
       <p
         className="absolute text-center font-thin text-white w-full mt-[30vh]"
-        style={{ zIndex: 100, letterSpacing: 10 }}
+        style={{ zIndex: 50, letterSpacing: 10 }}
       >
         <LetterCountUp text="SCROLL TO EXPLORE" interval={70} />
       </p>

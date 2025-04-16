@@ -37,28 +37,28 @@ export default function Stack() {
           texts={['CSS', 'Javascript', 'Typescript', 'HTML']}
           src={Picture1}
           direction={'left'}
-          left={'-40%'}
+          left={'-30%'}
           progress={scrollYProgress}
         />
         <Slide
           texts={['React Query', 'GraphQL', 'Axios', 'Redux']}
           src={Picture2}
           direction={'right'}
-          left={'-25%'}
+          left={'-15%'}
           progress={scrollYProgress}
         />
         <Slide
           texts={['Bootstrap', 'Ant Design', 'Material UI', 'Tailwind']}
           src={Picture3}
           direction={'left'}
-          left={'-75%'}
+          left={'-60%'}
           progress={scrollYProgress}
         />
         <Slide
           texts={['MongoDB', 'Scrum', 'Git', 'PostgreSQL']}
           src={Picture4}
           direction={'right'}
-          left={'-55%'}
+          left={'-45%'}
           progress={scrollYProgress}
         />
       </div>
