@@ -16,12 +16,12 @@ export default function Intro() {
 
   return (
     <div className="h-screen overflow-hidden">
-      <p
+      <div
         className="absolute text-center font-thin text-white w-full mt-[30vh]"
         style={{ zIndex: 50, letterSpacing: 10 }}
       >
         <LetterCountUp text="SCROLL TO EXPLORE" interval={70} />
-      </p>
+      </div>
       <motion.div style={{ y }} className="relative h-full">
         <Image
           src={Background}

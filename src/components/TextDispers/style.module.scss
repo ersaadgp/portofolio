@@ -1,0 +1,15 @@
+.introLine {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: black;
+}
+
+.introLine:nth-of-type(5),
+.introLine:nth-of-type(6) {
+  display: inline-flex;
+}
+.introLine:nth-of-type(6) {
+  right: -40px;
+  position: relative;
+}

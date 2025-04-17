@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Lenis from 'lenis'
 import Intro from '@/components/Intro'
 import Description from '@/components/Description'
@@ -10,6 +10,7 @@ import Project from '@/components/Project'
 import Footer from '@/components/Footer'
 import Loading from '@/components/Loading'
 import { AnimatePresence } from 'framer-motion'
+
 export default function Home() {
   useEffect(() => {
     const lenis = new Lenis()

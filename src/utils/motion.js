@@ -8,7 +8,7 @@ const LetterCountUp = ({ text, interval = 50 }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setMounted(true)
-    }, 3000) // 3000 ms = 3 seconds
+    }, 2500) // 3000 ms = 3 seconds
 
     return () => clearTimeout(timer) // cleanup on unmount
   }, [])
