@@ -55,7 +55,7 @@ export default function Stack() {
           progress={scrollYProgress}
         />
         <Slide
-          texts={['MongoDB', 'Scrum', 'Git', 'PostgreSQL']}
+          texts={['MongoDB', 'Scrum', 'Git Version', 'PostgreSQL']}
           src={Picture4}
           direction={'right'}
           left={'-45%'}
@@ -73,6 +73,7 @@ const Slide = (props) => {
     [0, 1],
     [150 * direction, -150 * direction],
   )
+
   return (
     <motion.div
       style={{ x: translateX, left: props.left }}

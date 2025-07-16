@@ -36,11 +36,12 @@ const Nav = () => {
         <p className="text-gray-200 font-thin">
           Bank Rakyat Indonesia | Since 2021
         </p>
-        <p className="text-gray-200 font-thin">Telkomsel | Since 2023</p>
-        <p className="text-gray-200 font-thin">Sinarmas Mining | 2022 - 2023</p>
-        <p className="text-gray-200 font-thin">Binar Academy | 2022 - 2024</p>
-        <p className="text-gray-200 font-thin">Bee Solution Partner | 2021</p>
-        <p className="text-gray-200 font-thin">Eigen Tri Mathema | 2021</p>
+        <p className="text-gray-200 font-thin">Telkomsel</p>
+        {/* <p className="text-gray-200 font-thin">Sinarmas Mining | 2022 - 2023</p> */}
+        <p className="text-gray-200 font-thin">Binar Academy</p>
+        <p className="text-gray-200 font-thin">Telkom Indonesia</p>
+        {/* <p className="text-gray-200 font-thin">Bee Solution Partner | 2021</p>
+        <p className="text-gray-200 font-thin">Eigen Tri Mathema | 2021</p> */}
       </div>
       <div className="flex flex-col gap-2">
         <h3 className="mb-2 uppercase text-[#ffffff80]">Education</h3>
@@ -51,12 +52,12 @@ const Nav = () => {
       </div>
       <div className="flex flex-col gap-2">
         <h3 className="mb-2 uppercase text-[#ffffff80]">Social Media</h3>
-        <a
+        {/* <a
           className="text-gray-200 font-thin"
           href="https://www.linkedin.com/in/ersaadgp/"
         >
           LinkedIn
-        </a>
+        </a> */}
         <a
           className="text-gray-200 font-thin"
           href="https://www.instagram.com/ersaadgp/"

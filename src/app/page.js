@@ -10,6 +10,7 @@ import Project from '@/components/Project'
 import Footer from '@/components/Footer'
 import Loading from '@/components/Loading'
 import { AnimatePresence } from 'framer-motion'
+import Company from '@/components/Company'
 
 export default function Home() {
   useEffect(() => {
@@ -51,6 +52,9 @@ export default function Home() {
       <Description />
       <Stack />
       <Project />
+
+      <Company />
+
       <Footer />
     </main>
   )
