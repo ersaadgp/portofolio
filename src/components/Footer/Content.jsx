@@ -62,11 +62,17 @@ const Nav = () => {
           className="text-gray-200 font-thin"
           href="https://www.instagram.com/ersaadgp/"
         >
-          Instagram
+          Instagram (Personal)
         </a>
-        <a className="text-gray-200 font-thin" href="/docs/resume.pdf" download>
+        <a
+          className="text-gray-200 font-thin"
+          href="https://www.instagram.com/sebuah.porto/"
+        >
+          Instagram (Portfolio)
+        </a>
+        {/* <a className="text-gray-200 font-thin" href="/docs/resume.pdf" download>
           Download My Resume
-        </a>
+        </a> */}
       </div>
     </div>
   )

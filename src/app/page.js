@@ -53,7 +53,7 @@ export default function Home() {
       <Stack />
       <Project />
 
-      <Company />
+      {/* <Company /> */}
 
       <Footer />
     </main>
